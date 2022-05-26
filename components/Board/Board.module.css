@@ -1,0 +1,32 @@
+.board {
+  width: fit-content;
+  outline: 4px solid rgb(134, 154, 189);
+}
+
+.row {
+  width: auto;
+  height: 50px;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  outline: 2px solid rgb(134, 154, 189);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: #bbb;
+}
+
+.snakeCell {
+  background-color: green;
+}
+
+.foodCell {
+  background-color: red;
+}
+
+.funkyFoodCell {
+  background-color: purple;
+}
